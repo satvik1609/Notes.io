@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parent{
+    background: linear-gradient(135deg, #F761A1,#8C1BAB);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.child{
+    position: absolute;
+    top: 10vh;
+    left: 20vh;
+    background-color: transparent;
+}
+h1{
+    margin-bottom: 2em;
+    margin-left: 0.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    display: flex;
+    gap: 10px;
+    padding: 13px;
+    border-top-right-radius: 22px;
+    border-top-left-radius: 22px;    
+    border-bottom-left-radius: 22px;    
+    border-bottom-right-radius: 22px;    
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+    border:none;
+    margin-left: 1.2em;
+}
+button:hover{
+box-shadow: rgba(0, 0, 0, 0.12) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+cursor: pointer;
+}
+h1 img{
+    width: 60px;
+}
+button img{
+    width: 20px;
+    margin-left: 5px;
+}
+.inputbox{
+    position: relative;
+    margin-top: 4em;
+    width: 300%;
+    padding: 10px;
+    max-width: 500px;
+    min-height: 200px;
+    background: white;
+    color: #333;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.containnotes{
+    position: relative;
+}
+.containnotes img{
+    width: 20px;
+    top: 1em;
+    left:29em;
+    position: absolute;
+    cursor: pointer;
+}
+@media(max-width:480px) {
+    body{
+        width: 100%;
+    }
+    .child{
+        margin-left: -8em;
+    }
+    .child h1{
+        font-size: 7vw !important ;
+    }
+    .inputbox {
+            position: relative;
+            margin-top: 4em;
+            margin-left: 0em;
+            width: 300%;
+            padding: 10px;
+            max-width: 300px;
+            min-height: 400px;
+            background: white;
+            color: #333;
+            outline: none;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+        .containnotes {
+            position: relative;
+        }
+        .containnotes img {
+            position: absolute;
+            width: 20px;
+            top: 1em;
+            left: 18em;
+            cursor: pointer;
+        }
+}
+@media (min-device-width: 481px) and (max-device-width: 768px) {
+body {
+        width: 100%;
+    }
+
+    .child {
+        margin-left: -7em;
+    }
+
+    .child h1 {
+        font-size: 7vw !important;
+    }
+
+    .inputbox {
+        position: relative;
+        margin-top: 4em;
+        margin-left: 2em;
+        width: 300%;
+        padding: 10px;
+        max-width: 500px;
+        min-height: 400px;
+        background: white;
+        color: #333;
+        outline: none;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .containnotes {
+        position: relative;
+    }
+
+    .containnotes img {
+        position: absolute;
+        width: 25px;
+        top: 1em;
+        left: 31em;
+        cursor: pointer;
+    }
+button {
+    display: flex;
+    gap: 10px;
+    padding: 13px;
+    border-top-right-radius: 22px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+    border: none;
+    margin-left: 1.3em;
+}
+}
