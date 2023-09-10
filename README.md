@@ -29,12 +29,8 @@ To run this website locally, follow these steps:
 1. Clone this repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/your-username/your-note-taking-website.git
+   git clone https://github.com/satvik1609/Notes.io.git
 
-2. Navigate to the project directory:
-
-   ```bash
-   cd your-note-taking-website
 
 Open the index.html file in your preferred web browser.
 
